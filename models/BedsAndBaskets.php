@@ -19,6 +19,16 @@ require_once __DIR__ . '/AnimalProduct.php';
             $this->dimension = $dimension;
             $this->shape = $shape;
         }
+
+        public function getAnimalSize() {
+            return $this->animalSize;
+        }
+        public function getDimension() {
+            return $this->dimension;
+        }
+        public function getShape() {
+            return $this->shape;
+            }
     };
 
     // ok si vede

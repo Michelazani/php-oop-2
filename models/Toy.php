@@ -15,6 +15,13 @@ require_once __DIR__ . '/AnimalProduct.php';
             $this->material = $material;
             $this->productType = $productType;
         }
+
+        public function getMaterial() {
+            return $this->material;
+            }
+        public function getProductType() {
+            return $this->productType;
+            }
     };
 
     // ok si vede

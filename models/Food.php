@@ -13,7 +13,14 @@ require_once __DIR__ . '/AnimalProduct.php';
             // aggiunta proprietà del figlio
             $this->type = $type;
         }
-    }
+
+        // metodi per visulizzare proprietà figlio
+        public function getType() {
+                return $this->type;
+                }
+            }
+
+
 
     // ok si vede
     $royalCanin = new Food ('1', 'puppy', '2.50', 'royal canin', 'dry food');
