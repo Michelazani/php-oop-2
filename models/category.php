@@ -15,6 +15,7 @@
     $dog = new AnimalCategory('dog', 'A dog is a friendly, domesticated animal that comes in various breeds, sizes, and colors');
     $cat = new AnimalCategory('cat', 'A cat is a small, domesticated feline known for its independent and playful nature');
 
-    // ok si vede
+    /* ok si vede
     var_dump($dog, $cat);
+    */
 ?>

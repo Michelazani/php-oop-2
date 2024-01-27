@@ -22,7 +22,8 @@ require_once __DIR__ . '/AnimalProduct.php';
 
 
 
-    // ok si vede
+    /* ok si vede
     $royalCanin = new Food ('1', 'puppy', '2.50', 'royal canin', 'dry food');
     var_dump($royalCanin);
+    */
 ?>

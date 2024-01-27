@@ -24,7 +24,8 @@ require_once __DIR__ . '/AnimalProduct.php';
             }
     };
 
-    // ok si vede
+    /* ok si vede
     $kong = new Toy ('1', 'adult', '1.50', 'ferplast', 'rubber', 'balls');
     var_dump($kong);
+    */
 ?>

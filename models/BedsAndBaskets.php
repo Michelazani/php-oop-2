@@ -31,7 +31,8 @@ require_once __DIR__ . '/AnimalProduct.php';
             }
     };
 
-    // ok si vede
+    /* ok si vede
     $squareBed = new BedsAndBaskets ('1', 'puppy', '20.50', 'cosma', 'small', '50x50', 'square');
     var_dump($squareBed);
+    */
 ?>
