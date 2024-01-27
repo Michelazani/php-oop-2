@@ -1,6 +1,5 @@
 <?php
-require_once __DIR__ . '/models/AnimalProduct.php';
-require_once __DIR__ . '/models/Dog.php';
+include_once __DIR__ . '/models/AnimalProduct.php';
 ?>
 
 <!DOCTYPE html>
@@ -11,6 +10,6 @@ require_once __DIR__ . '/models/Dog.php';
     <title>Animal Product</title>
 </head>
 <body>
-    
+
 </body>
 </html>
