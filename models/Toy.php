@@ -8,9 +8,9 @@ require_once __DIR__ . '/AnimalProduct.php';
         public $productType;
     
         // unione delle proprietà generali+specifica della classe figlio
-        public function __construct($id, $rangeAgeAnimal, $price, $brand, $material, $productType) {
+        public function __construct($id,$imgUrl, $rangeAgeAnimal, $price, $brand, $material, $productType) {
             // richiama le proprietà generali 
-            parent::__construct($id, $rangeAgeAnimal, $price, $brand);
+            parent::__construct($id,$imgUrl, $rangeAgeAnimal, $price, $brand);
             // aggiunta proprietà del figlio
             $this->material = $material;
             $this->productType = $productType;

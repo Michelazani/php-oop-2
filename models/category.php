@@ -9,6 +9,15 @@
             $this->animal = $animal;
             $this->description = $description;
         }
+
+        public function getAnimal() {
+            return $this->animal;
+        }
+        public function getDescription() {
+            return $this->description;
+        }
+
+
     }
     
     // creare istanza con cane e gatto 
