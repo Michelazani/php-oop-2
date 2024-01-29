@@ -45,6 +45,9 @@ include_once __DIR__ . '/models/toy.php';
                             <p class="card-text mt-2">
                                 <?php echo $toys->getPrice(); ?>
                             </p>
+                            <p class="card-text">
+                                <?php echo $toys->getProductType(); ?>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -61,6 +64,9 @@ include_once __DIR__ . '/models/toy.php';
                             </h6>
                             <p class="card-text  mt-2">
                                 <?php echo $food->getPrice(); ?>
+                            </p>
+                            <p class="card-text">
+                                <?php echo $food->getType(); ?>
                             </p>
                         </div>
                     </div>
